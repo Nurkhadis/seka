@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace Satbayev.DAL_university
 {
-    internal class Class2
+    public class Category 
     {
+        public int Id { get; set; } 
+        public DateTime CreatDate { get; set; } 
+        public string CategoryName { get; set; } 
+
+        
     }
 }
