@@ -11,6 +11,7 @@ namespace Satbayev.DAL_university
         public int Id { get; set; } 
         public DateTime CreatDate { get; set; } 
         public string CategoryName { get; set; } 
+        //
 
         
     }
